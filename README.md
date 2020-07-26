@@ -1,4 +1,4 @@
-# Task №1 [DEMO](https://aleksandrlinnik1.github.io/task2/)
+# Task №2 [DEMO](https://aleksandrlinnik1.github.io/task2/)
 # Task:
 
 Допустим, что по url http://любой_домен/filter?size=M&color=1&color=2&manufacturer=aaa&manufacturer=ddd находится страница, на которой есть такие поля:
