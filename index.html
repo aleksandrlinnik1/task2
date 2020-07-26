@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#2</title>
+    <meta charset="UTF-8" />
+    <style>
+    form {
+      width: 500px;
+      margin: 0 auto;
+    }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <p>Size</p>
+      <div>        
+        <label><input id="size-S" type="radio" name="size" value="S" />S</label>        
+        <label><input id="size-M" type="radio" name="size" value="M" />M</label>        
+        <label><input id="size-L" type="radio" name="size" value="L" />L</label>
+      </div>
+
+      <p>Color</p>
+      <div>        
+        <label><input id="color-1" type="checkbox" name="color" value="1"/>1</label>
+        <label><input id="color-2" type="checkbox" name="color" value="2"/>2</label>
+        <label><input id="color-3" type="checkbox" name="color" value="3"/>3</label>
+        <label><input id="color-4" type="checkbox" name="color" value="4"/>4</label>
+        <label><input id="color-5" type="checkbox" name="color" value="5"/>5</label>
+      </div>
+
+      <p>Manufacturer</p>
+      <div>
+        <select name="manufacturer"  multiple>
+          <option id="manufacturer-aaa" value="aaa">aaa</option>
+          <option id="manufacturer-b&c" value="b&c">b&c</option>
+          <option id="manufacturer-ddd" value="ddd">ddd</option>
+          <option id="manufacturer-eee" value="eee">eee</option>
+        </select>
+      </div>
+
+      <p>Sales</p>
+      <div>
+        <label><input id="sales" type="checkbox"/>1</label>
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
